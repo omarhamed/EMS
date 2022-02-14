@@ -1,0 +1,15 @@
+$enFont: "Arial";
+$mainColor : green;
+$childColor : red;
+$mainMargin : 10px;
+
+@import "test.scss";
+
+.class1 {
+    color: $mainColor;
+    margin-top: $mainMargin;
+}
+.class2{
+    text-align: center;
+    background-color: $childColor;
+}
